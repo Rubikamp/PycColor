@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue_INTP">#10445A</color>
+    <color name="light_blue_INTP">#2A8CAE</color>
+    <color name="black">#0D0D0D</color>
+    <color name="gray_INTP">#90B0C0</color>
+    <color name="purple_INTJ">#4B3B65</color>
+    <color name="gray_INTJ">#4C576B</color>
+    <color name="blue_INTJ">#1A2551</color>
+    <color name="purple_INFJ">#9799CC</color>
+    <color name="gray_INFJ">#A6D0E9</color>
+    <color name="PURPLE_2_INFJ">#434172</color>
+    <color name="DARK_PURPLE_INFJ">#3C204C</color>
+    <color name="BLUE_INFP">#659BB3</color>
+    <color name="gray_INFP">#83B4D5</color>
+    <color name="purple_INFP">#684C77</color>
+    <color name="dark_blue_INFP">#4F537E</color>
+    <color name="pink_ISFJ">#E79E9C</color>
+    <color name="purple_ISFJ">#684C77</color>
+    <color name="blue_ISFJ">#4A698C</color>
+    <color name="yellow_ISFP">#FCC339</color>
+    <color name="dark_purple_ISFP">#6E5670</color>
+    <color name="blue_ISFP">#404766</color>
+    <color name="brown_ISTP">#4F3C25</color>
+    <color name="green_ISTP">#355953</color>
+    <color name="blue_ISTP">#3C7686</color>
+    <color name="dark_blue_ISTJ">#223B49</color>
+    <color name="blue_ISTJ">#4B7095</color>
+    <color name="gray_ISTJ">#CFDDEF</color>
+
+
+</resources>
