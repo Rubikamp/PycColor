@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Color type</string>
+    <string name="ISTP_text">Pursue something that you are good at. Work that makes you feel free and interested in it. Use your unique skills to progress to do something that challenges you and makes you progress. Something that does not make you bored and emotional and at the same time does not disturb your peace</string>
+    <string name="ISTP_text_sub">Tip for type ISTP</string>
+    <string name="choose_MBTI_type">choose your mbti type</string>
+    <string name="jobs_ISTP">Jobs suggested for this type</string>
+    <string name="engineer">•Engineer</string>
+    <string name="biologist">•Biologist</string>
+    <string name="the_mechanic">•the mechanic</string>
+    <string name="electrical_engineer">•electrical engineer</string>
+    <string name="investor">•investor</string>
+    <string name="technician">•Technician</string>
+    <string name="people_who_are_istp">○People who are ISTP○</string>
+
 </resources>
