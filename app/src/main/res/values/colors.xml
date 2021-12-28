@@ -29,6 +29,51 @@
     <color name="dark_blue_ISTJ">#223B49</color>
     <color name="blue_ISTJ">#4B7095</color>
     <color name="gray_ISTJ">#CFDDEF</color>
+    <color name="pink_ESFJ">#D47D69</color>
+    <color name="light_pink_ESFJ">#E72C60</color>
+    <color name="purple_ESFJ">#7A4B62</color>
+    <color name="blue_ESFJ">#3F465C</color>
+    <color name="yellow_ENFP">#FEDA3C</color>
+    <color name="light_orange_ENFP">#E3896B</color>
+    <color name="pink_ENFP">#E8425F</color>
+    <color name="orange_ENFP">#F07F14</color>
+    <color name="yellow_ESFP">#FFD53C</color>
+    <color name="orange_ESFP">#F7AA3B</color>
+    <color name="green_ESFP">#657531</color>
+    <color name="gray_ESFP">#2E2E2E</color>
+    <color name="blue_ENTP">#29C4F4</color>
+    <color name="dark_blue_ENTP">#066A7E</color>
+    <color name="green_ENTP">#59B993</color>
+    <color name="light_green_ENTP">#02D169</color>
+    <color name="orange_ENFJ">#DA7F42</color>
+    <color name="light_orange_ENFJ">#F5B341</color>
+    <color name="green_ENFJ">#578748</color>
+    <color name="light_green_ENFJ">#86C066</color>
+    <color name="brown_ENTJ">#775914</color>
+    <color name="dark_green_ENTJ">#1D4428</color>
+    <color name="dark_red_ENTJ">#3F1111</color>
+    <color name="gray_ESTJ">#4C667D</color>
+    <color name="blue_ESTJ">#34414F</color>
+    <color name="dark_red_ESTJ">#57292D</color>
+    <color name="yellow_ESTP">#FCF874</color>
+    <color name="orange_ESTP">#E66A0F</color>
+    <color name="red_ESTP">#B82219</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </resources>
