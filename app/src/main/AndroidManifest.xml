@@ -10,10 +10,52 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ColorType">
         <activity
-            android:name=".home_activity"
+            android:name=".enfp_Activity"
             android:exported="false" />
         <activity
-            android:name=".istp_activity"
+            android:name=".enfj_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".estj_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".entj_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".esfp_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".entp_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".esfj_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".estp_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".infj_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".infpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".intjActivity"
+            android:exported="false" />
+        <activity
+            android:name=".intp_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".isfj_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Isfp_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".istj_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".istp_Activity"
             android:exported="false" />
         <activity
             android:name=".EnfjActivity"
