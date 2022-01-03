@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ColorType</string>
+    <string name="choose_your_type">Choose your type</string>
+    <string name="enfj">ENFJ</string>
+    <string name="enfp">ENFP</string>
+    <string name="entj">ENTJ</string>
+    <string name="entp">ENTP</string>
+    <string name="esfj">ESFJ</string>
+    <string name="esfp">ESFP</string>
+    <string name="estj">ESTJ</string>
+    <string name="estp">ESTP</string>
+    <string name="infj">INFJ</string>
+    <string name="infp">INFP</string>
+    <string name="intj">INTJ</string>
+    <string name="intp">INTP</string>
+    <string name="isfj">ISFJ</string>
+    <string name="isfp">ISFP</string>
+    <string name="istj">ISTJ</string>
+    <string name="istp">ISTP</string>
+    <string name="loading">Loading...</string>
+</resources>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_your_type"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="22sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textview_title">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_first"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/layout_margin"
+                android:layout_marginTop="@dimen/layout_margin"
+                android:layout_marginEnd="@dimen/layout_margin"
+                android:layout_marginBottom="@dimen/layout_margin"
+                android:orientation="horizontal"
+                android:padding="@dimen/layout_padding">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_enfj"
+                    android:padding="16dp"
+                    android:text="@string/enfj"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_enfp"
+                    android:padding="16dp"
+                    android:text="@string/enfp"
+                    android:textSize="20sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_second"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/layout_first"
+                android:layout_margin="@dimen/layout_margin"
+                android:padding="@dimen/layout_padding"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_entj"
+                    android:padding="16dp"
+                    android:text="@string/entj"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_entp"
+                    android:padding="16dp"
+                    android:text="@string/entp"
+                    android:textSize="20sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_third"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/layout_margin"
+                android:layout_below="@id/layout_second"
+                android:padding="@dimen/layout_padding"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_esfj"
+                    android:padding="16dp"
+                    android:text="@string/esfj"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_esfp"
+                    android:padding="16dp"
+                    android:text="@string/esfp"
+                    android:textSize="20sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_forth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/layout_third"
+                android:layout_marginStart="@dimen/layout_margin"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="@dimen/layout_margin"
+                android:layout_marginBottom="@dimen/layout_margin"
+                android:orientation="horizontal"
+                android:padding="@dimen/layout_padding">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_estj"
+                    android:padding="16dp"
+                    android:text="@string/estj"
+                    android:textSize="20sp" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_estp"
+                    android:padding="16dp"
+                    android:text="@string/estp"
+                    android:textSize="20sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_fifth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/layout_forth"
+                android:layout_marginStart="@dimen/layout_margin"
+                android:layout_marginTop="@dimen/layout_margin"
+                android:layout_marginEnd="@dimen/layout_margin"
+                android:layout_marginBottom="@dimen/layout_margin"
+                android:orientation="horizontal"
+                android:padding="@dimen/layout_padding">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_infj"
+                    android:padding="16dp"
+                    android:text="@string/infj"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_infp"
+                    android:padding="16dp"
+                    android:text="@string/infp"
+                    android:textSize="20sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_sixth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/layout_margin"
+                android:layout_below="@id/layout_fifth"
+                android:padding="@dimen/layout_padding"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_intj"
+                    android:padding="16dp"
+                    android:text="@string/intj"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_intp"
+                    android:padding="16dp"
+                    android:text="@string/intp"
+                    android:textSize="20sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_seventh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/layout_margin"
+                android:layout_below="@id/layout_sixth"
+                android:padding="@dimen/layout_padding"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_isfj"
+                    android:padding="16dp"
+                    android:text="@string/isfj"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_isfp"
+                    android:padding="16dp"
+                    android:text="@string/isfp"
+                    android:textSize="20sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_eighth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/layout_margin"
+                android:layout_below="@id/layout_seventh"
+                android:padding="@dimen/layout_padding"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_istj"
+                    android:padding="16dp"
+                    android:text="@string/istj"
+                    android:textSize="20sp" />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_istp"
+                    android:padding="16dp"
+                    android:text="@string/istp"
+                    android:textSize="20sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
