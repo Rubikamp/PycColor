@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_estp"
+    tools:context=".estp_Activity">
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tip_estp"
+        android:text="@string/tip_estp"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:fontFamily="@font/bold"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/infj_text"
+        android:text="@string/estp_text"
+        android:fontFamily="@font/simple"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tip_estp"/>
+
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/infj_jobs"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/infj_jobs"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="260dp"
+        app:layout_constraintTop_toBottomOf="@+id/tip_estp"/>
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEnOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:text="@string/electrician"
+        android:fontFamily="@font/bold"
+        app:layout_constraintTop_toBottomOf="@+id/infj_jobs" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEnOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:text="@string/cop"
+        android:fontFamily="@font/bold"
+        app:layout_constraintTop_toBottomOf="@+id/infj_jobs" />
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEnOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:text="@string/athlete"
+        android:fontFamily="@font/bold"
+        app:layout_constraintTop_toBottomOf="@+id/infj_jobs" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintEnd_toEnOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:text="@string/politician"
+        android:fontFamily="@font/bold"
+        app:layout_constraintTop_toBottomOf="@+id/infj_jobs" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEnOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:text="@string/blogger"
+        android:fontFamily="@font/bold"
+        app:layout_constraintTop_toBottomOf="@+id/infj_jobs" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEnOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:text="@string/investor"
+        android:fontFamily="@font/bold"
+        app:layout_constraintTop_toBottomOf="@+id/infj_jobs" />
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEnOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:text="@string/technician"
+        android:fontFamily="@font/bold"
+        app:layout_constraintTop_toBottomOf="@+id/infj_jobs" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/people_who_are_estp"
+        android:text="@string/people_who_are_estp"
+        android:textSize="26sp"
+        android:layout_marginTop="180dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/bold_simple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/infj_jobs" />
+
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="300dp"
+        app:srcCompat="@mipmap/goblin_estp"
+        app:layout_constraintTop_toTopOf="@+id/people_who_are_estp"/>
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="120dp"
+        app:srcCompat="@mipmap/raponzel_estp"
+        app:layout_constraintTop_toTopOf="@+id/people_who_are_estp"/>
+
+
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="300dp"
+        app:srcCompat="@mipmap/sobin_estp"
+        app:layout_constraintTop_toTopOf="@+id/people_who_are_estp"/>
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="90dp"
+        app:srcCompat="@mipmap/redgirl_estp"
+        app:layout_constraintTop_toTopOf="@+id/people_who_are_estp"/>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
