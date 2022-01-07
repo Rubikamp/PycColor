@@ -8,7 +8,7 @@
     tools:context=".esfj_Activity">
 
 
-    <androidx.appcompat.widget.AppCompatEditText
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tip_esfj"
@@ -22,7 +22,7 @@
         app:layout_constraintStart_toStartOf="parent"/>
 
 
-    <androidx.appcompat.widget.AppCompatEditText
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/esfj_text"
@@ -31,6 +31,7 @@
         android:gravity="center"
         android:textSize="20sp"
         android:textColor="@color/black"
+        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tip_esfj"/>
@@ -155,7 +156,7 @@
         android:id="@+id/people_who_are_esfj"
         android:text="@string/people_who_are_esfj"
         android:textSize="26sp"
-        android:layout_marginTop="190dp"
+        android:layout_marginTop="200dp"
         android:gravity="center"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -168,7 +169,7 @@
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="38dp"
+        android:layout_marginTop="48dp"
         android:layout_marginStart="310dp"
         app:srcCompat="@mipmap/jhope_esfj"
         app:layout_constraintTop_toTopOf="@+id/people_who_are_esfj"/>
@@ -177,7 +178,7 @@
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="100dp"
         app:srcCompat="@mipmap/green_esfj"
         app:layout_constraintTop_toTopOf="@+id/people_who_are_esfj"/>
@@ -187,7 +188,7 @@
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="58dp"
         android:layout_marginStart="100dp"
         app:srcCompat="@mipmap/pinkgirl_estj"
         app:layout_constraintTop_toTopOf="@+id/people_who_are_esfj"/>
@@ -196,7 +197,7 @@
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="290dp"
         app:srcCompat="@mipmap/diana_esfj"
         app:layout_constraintTop_toTopOf="@+id/people_who_are_esfj"/>
