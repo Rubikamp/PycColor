@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#F8DCDC">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -14,12 +15,13 @@
             android:id="@+id/textview_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="22sp"
+            android:fontFamily="@font/playfairdisplay_extrabold"
             android:text="@string/choose_your_type"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:layout_marginTop="22sp"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -27,8 +29,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/textview_title">
 
@@ -49,8 +51,10 @@
                     android:layout_marginEnd="12sp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_enfj"
+                    android:fontFamily="@font/playfairdisplay_extrabold"
                     android:padding="16dp"
                     android:text="@string/enfj"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -59,19 +63,22 @@
                     android:layout_marginStart="12sp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_enfp"
+                    android:fontFamily="@font/playfairdisplay_extrabold"
                     android:padding="16dp"
                     android:text="@string/enfp"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
+
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:id="@+id/layout_second"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@id/layout_first"
                 android:layout_margin="@dimen/layout_margin"
-                android:padding="@dimen/layout_padding"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="@dimen/layout_padding">
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:layout_width="0dp"
@@ -79,8 +86,10 @@
                     android:layout_marginEnd="12sp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_entj"
+                    android:fontFamily="@font/playfairdisplay_extrabold"
                     android:padding="16dp"
                     android:text="@string/entj"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -89,8 +98,10 @@
                     android:layout_marginStart="12sp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_entp"
+                    android:fontFamily="@font/playfairdisplay_extrabold"
                     android:padding="16dp"
                     android:text="@string/entp"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -99,10 +110,10 @@
                 android:id="@+id/layout_third"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="@dimen/layout_margin"
                 android:layout_below="@id/layout_second"
-                android:padding="@dimen/layout_padding"
-                android:orientation="horizontal">
+                android:layout_margin="@dimen/layout_margin"
+                android:orientation="horizontal"
+                android:padding="@dimen/layout_padding">
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:layout_width="0dp"
@@ -110,8 +121,10 @@
                     android:layout_marginEnd="12sp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_esfj"
+                    android:fontFamily="@font/playfairdisplay_extrabold"
                     android:padding="16dp"
                     android:text="@string/esfj"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -120,8 +133,10 @@
                     android:layout_marginStart="12sp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_esfp"
+                    android:fontFamily="@font/playfairdisplay_extrabold"
                     android:padding="16dp"
                     android:text="@string/esfp"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -144,8 +159,10 @@
                     android:layout_marginEnd="12sp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_estj"
+                    android:fontFamily="@font/playfairdisplay_extrabold"
                     android:padding="16dp"
                     android:text="@string/estj"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
 
 
@@ -155,8 +172,10 @@
                     android:layout_marginStart="12sp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_estp"
+                    android:fontFamily="@font/playfairdisplay_extrabold"
                     android:padding="16dp"
                     android:text="@string/estp"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -179,8 +198,10 @@
                     android:layout_marginEnd="12sp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_infj"
+                    android:fontFamily="@font/playfairdisplay_extrabold"
                     android:padding="16dp"
                     android:text="@string/infj"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -189,8 +210,10 @@
                     android:layout_marginStart="12sp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_infp"
+                    android:fontFamily="@font/playfairdisplay_extrabold"
                     android:padding="16dp"
                     android:text="@string/infp"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -199,10 +222,10 @@
                 android:id="@+id/layout_sixth"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="@dimen/layout_margin"
                 android:layout_below="@id/layout_fifth"
-                android:padding="@dimen/layout_padding"
-                android:orientation="horizontal">
+                android:layout_margin="@dimen/layout_margin"
+                android:orientation="horizontal"
+                android:padding="@dimen/layout_padding">
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:layout_width="0dp"
@@ -210,8 +233,10 @@
                     android:layout_marginEnd="12sp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_intj"
+                    android:fontFamily="@font/playfairdisplay_extrabold"
                     android:padding="16dp"
                     android:text="@string/intj"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -220,8 +245,10 @@
                     android:layout_marginStart="12sp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_intp"
+                    android:fontFamily="@font/playfairdisplay_extrabold"
                     android:padding="16dp"
                     android:text="@string/intp"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -230,10 +257,10 @@
                 android:id="@+id/layout_seventh"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="@dimen/layout_margin"
                 android:layout_below="@id/layout_sixth"
-                android:padding="@dimen/layout_padding"
-                android:orientation="horizontal">
+                android:layout_margin="@dimen/layout_margin"
+                android:orientation="horizontal"
+                android:padding="@dimen/layout_padding">
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:layout_width="0dp"
@@ -241,8 +268,10 @@
                     android:layout_marginEnd="12sp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_isfj"
+                    android:fontFamily="@font/playfairdisplay_extrabold"
                     android:padding="16dp"
                     android:text="@string/isfj"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -251,8 +280,10 @@
                     android:layout_marginStart="12sp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_isfp"
+                    android:fontFamily="@font/playfairdisplay_extrabold"
                     android:padding="16dp"
                     android:text="@string/isfp"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -261,10 +292,10 @@
                 android:id="@+id/layout_eighth"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="@dimen/layout_margin"
                 android:layout_below="@id/layout_seventh"
-                android:padding="@dimen/layout_padding"
-                android:orientation="horizontal">
+                android:layout_margin="@dimen/layout_margin"
+                android:orientation="horizontal"
+                android:padding="@dimen/layout_padding">
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:layout_width="0dp"
@@ -272,17 +303,22 @@
                     android:layout_marginEnd="12sp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_istj"
+                    android:fontFamily="@font/playfairdisplay_extrabold"
                     android:padding="16dp"
                     android:text="@string/istj"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
+
                 <androidx.appcompat.widget.AppCompatButton
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="12sp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_istp"
+                    android:fontFamily="@font/playfairdisplay_extrabold"
                     android:padding="16dp"
                     android:text="@string/istp"
+                    android:textColor="@color/black"
                     android:textSize="20sp" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
