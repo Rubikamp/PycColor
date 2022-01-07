@@ -9,7 +9,7 @@
 
 
 
-    <androidx.appcompat.widget.AppCompatEditText
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tip_istj"
@@ -24,7 +24,7 @@
 
 
 
-    <androidx.appcompat.widget.AppCompatEditText
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/istj_text"
@@ -173,7 +173,7 @@
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="85dp"
         android:layout_marginEnd="300dp"
         android:id="@+id/watch_istj"
         app:layout_constraintTop_toTopOf="@+id/people_who_are_istj"
@@ -196,7 +196,7 @@
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/kyungsoo_istj"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="85dp"
+        android:layout_marginTop="110dp"
         app:layout_constraintTop_toTopOf="@id/people_who_are_istj"/>
 
 
@@ -206,7 +206,7 @@
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/anime_istj"
         android:layout_marginStart="280dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="89dp"
         app:layout_constraintTop_toTopOf="@id/people_who_are_istj"/>
 
 

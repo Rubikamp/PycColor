@@ -9,7 +9,7 @@
 
 
 
-    <androidx.appcompat.widget.AppCompatEditText
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tip_intj"
@@ -23,13 +23,14 @@
         app:layout_constraintStart_toStartOf="parent"/>
 
 
-    <androidx.appcompat.widget.AppCompatEditText
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/intj_text"
         android:text="@string/intj_text"
         android:fontFamily="@font/simple"
         android:gravity="center"
+        android:layout_marginTop="10dp"
         android:textSize="20sp"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,7 +49,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:text="@string/intp_jobs"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="210dp"
+        android:layout_marginTop="220dp"
         app:layout_constraintTop_toBottomOf="@+id/tip_intj"/>
 
 
@@ -158,7 +159,7 @@
         android:id="@+id/people_who_are_intj"
         android:text="@string/people_who_are_intj"
         android:textSize="26sp"
-        android:layout_marginTop="190dp"
+        android:layout_marginTop="200dp"
         android:gravity="center"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -171,7 +172,7 @@
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="64dp"
         android:layout_marginEnd="290dp"
         app:layout_constraintTop_toTopOf="@+id/people_who_are_intj"
         app:srcCompat="@mipmap/Walter_White" />
@@ -180,7 +181,7 @@
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="52dp"
         android:layout_marginEnd="100dp"
         app:layout_constraintTop_toTopOf="@+id/people_who_are_intj"
         app:srcCompat="@mipmap/ender_intj" />
@@ -189,7 +190,7 @@
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="29dp"
         android:layout_marginStart="290dp"
         app:layout_constraintTop_toTopOf="@+id/people_who_are_intj"
         app:srcCompat="@mipmap/rujin_intj" />
@@ -198,7 +199,7 @@
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="42dp"
         android:layout_marginStart="60dp"
         app:layout_constraintTop_toTopOf="@+id/people_who_are_intj"
         app:srcCompat="@mipmap/anime_intj" />

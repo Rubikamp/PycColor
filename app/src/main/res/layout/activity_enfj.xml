@@ -9,7 +9,7 @@
 
 
 
-    <androidx.appcompat.widget.AppCompatEditText
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tip_enfj"
@@ -24,7 +24,7 @@
 
 
 
-    <androidx.appcompat.widget.AppCompatEditText
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/enfj_text"
@@ -32,6 +32,7 @@
         android:fontFamily="@font/simple"
         android:gravity="center"
         android:textSize="20sp"
+        android:layout_marginTop="10dp"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,7 +50,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:text="@string/estj_jobs"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="210dp"
+        android:layout_marginTop="220dp"
         app:layout_constraintTop_toBottomOf="@+id/tip_enfj"/>
 
 
@@ -159,7 +160,7 @@
         android:id="@+id/people_who_are_enfj"
         android:text="@string/people_who_are_enfj"
         android:textSize="26sp"
-        android:layout_marginTop="190dp"
+        android:layout_marginTop="200dp"
         android:gravity="center"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -183,7 +184,7 @@
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="45dp"
         android:layout_marginEnd="80dp"
         app:srcCompat="@mipmap/obama_enfj"
         app:layout_constraintTop_toTopOf="@+id/people_who_are_enfj"/>
@@ -193,7 +194,7 @@
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="29dp"
+        android:layout_marginTop="27dp"
         android:layout_marginStart="110dp"
         app:srcCompat="@mipmap/moanaa_enfj"
         app:layout_constraintTop_toTopOf="@+id/people_who_are_enfj"/>
