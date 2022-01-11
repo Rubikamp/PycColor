@@ -13,7 +13,7 @@
             android:name=".enfp_Activity"
             android:exported="false" />
         <activity
-            android:name=".enfj_Activity"
+            android:name=".EnfjActivity"
             android:exported="false" />
         <activity
             android:name=".estj_Activity"
