@@ -1,62 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.colortype">
+    package="com.example.colortype" >
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_logo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ColorType">
+        android:theme="@style/Theme.ColorType" >
         <activity
-            android:name=".enfp_Activity"
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EnfpActivity"
             android:exported="false" />
         <activity
             android:name=".EnfjActivity"
             android:exported="false" />
         <activity
-            android:name=".estj_Activity"
+            android:name=".EstjActivity"
             android:exported="false" />
         <activity
-            android:name=".entj_Activity"
+            android:name=".EntjActivity"
             android:exported="false" />
         <activity
-            android:name=".esfp_Activity"
+            android:name=".EsfpActivity"
             android:exported="false" />
         <activity
-            android:name=".entp_Activity"
+            android:name=".EntpActivity"
             android:exported="false" />
         <activity
-            android:name=".esfj_Activity"
+            android:name=".EsfjActivity"
             android:exported="false" />
         <activity
-            android:name=".estp_Activity"
+            android:name=".EstpActivity"
             android:exported="false" />
         <activity
-            android:name=".infj_Activity"
+            android:name=".InfjActivity"
             android:exported="false" />
         <activity
-            android:name=".infpActivity"
+            android:name=".InfpActivity"
             android:exported="false" />
         <activity
-            android:name=".intjActivity"
+            android:name=".IntjActivity"
             android:exported="false" />
         <activity
-            android:name=".intp_Activity"
+            android:name=".IntpActivity"
             android:exported="false" />
         <activity
-            android:name=".isfj_Activity"
+            android:name=".IsfjActivity"
             android:exported="false" />
         <activity
-            android:name=".Isfp_Activity"
+            android:name=".IsfpActivity"
             android:exported="false" />
         <activity
-            android:name=".istj_Activity"
+            android:name=".IstjActivity"
             android:exported="false" />
         <activity
-            android:name=".istp_Activity"
+            android:name=".IstpActivity"
             android:exported="false" />
         <activity
             android:name=".EnfjActivity"

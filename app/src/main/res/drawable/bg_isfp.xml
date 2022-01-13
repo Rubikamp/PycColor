@@ -2,9 +2,10 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
 
-
-    <gradient android:angle="45"
-        android:startColor="@color/dark_purple_ISFP"
-        android:endColor="@color/yellow_ISFP"/>
+    <corners android:radius="33dp" />
+    <gradient
+        android:angle="45"
+        android:endColor="@color/yellow_ISFP"
+        android:startColor="@color/dark_purple_ISFP" />
 
 </shape>

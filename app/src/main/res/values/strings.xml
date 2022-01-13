@@ -48,6 +48,7 @@
     <string name="astronaut">•Astronaut</string>
     <string name="predictor">•Predictor</string>
     <string name="people_who_are_intp">○People who are INTP○</string>
+    <string name="tip_intj">Tip for INTJ type</string>
     <string name="intj_text">Look for work to be skilled. Which allows you to be independent. Do something that makes you feel like you are making a difference. And something that satisfies you and you can use them to the best of your ability and potential. Never underestimate and always strive for your dreams</string>
     <string name="graphic_designer">•Graphic Designer</string>
     <string name="ceo_of_the_company">•CEO of the company</string>
@@ -132,11 +133,29 @@
     <string name="coffee_shop_owner">•Coffee shop owner</string>
     <string name="hotel_manager">•hotel manager</string>
     <string name="people_who_are_enfj">○People who are ENFJ○</string>
-    <string name="enfp_tip">*Tip for ESTP type*</string>
+    <string name="enfp_tip">*Tip for ENFP type*</string>
     <string name="enfp_text">Look for work that you can do skillfully. Do something that makes you feel free and happy. Do something that is fast and exciting. Do something that can make you travel to different places. Use your curiosity and creativity to do the work and help.</string>
     <string name="language_teacher">•Language teacher</string>
     <string name="manager">•manager</string>
     <string name="people_who_are_enfp">○People who are ENFP○</string>
+    <string name="choose_your_type">Choose your Type</string>
+    <string name="enfj">ENFJ</string>
+    <string name="enfp">ENFP</string>
+    <string name="entj">ENTJ</string>
+    <string name="entp">ENTP</string>
+    <string name="esfj">ESFJ</string>
+    <string name="esfp">ESFP</string>
+    <string name="estj">ESTJ</string>
+    <string name="estp">ESTP</string>
+    <string name="infj">INFJ</string>
+    <string name="infp">INFP</string>
+    <string name="intj">INTJ</string>
+    <string name="intp">INTP</string>
+    <string name="isfj">ISFJ</string>
+    <string name="isfp">ISFP</string>
+    <string name="istj">ISTJ</string>
+    <string name="istp">ISTP</string>
+    <string name="loading">Loading...</string>
 
 
 </resources>

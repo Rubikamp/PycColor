@@ -5,213 +5,179 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_estp"
-    tools:context=".estp_Activity">
-
+    tools:context=".EstpActivity">
 
     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tip_estp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/tip_estp"
-        android:text="@string/tip_estp"
-        android:textColor="@color/black"
-        android:textSize="22sp"
         android:fontFamily="@font/bold"
         android:gravity="center"
+        android:text="@string/tip_estp"
         android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/infj_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/infj_text"
-        android:text="@string/estp_text"
+        android:layout_marginTop="10dp"
         android:fontFamily="@font/simple"
         android:gravity="center"
-        android:textSize="20sp"
-        android:layout_marginTop="10dp"
+        android:text="@string/estp_text"
         android:textColor="@color/black"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tip_estp"/>
-
-
-
+        app:layout_constraintTop_toBottomOf="@+id/tip_estp" />
 
     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/infj_jobs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/infj_jobs"
-        android:textSize="22sp"
-        android:textColor="@color/black"
+        android:layout_marginTop="300dp"
         android:fontFamily="@font/bold"
-        app:layout_constraintEnd_toEndOf="parent"
         android:text="@string/infj_jobs"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="270dp"
-        app:layout_constraintTop_toBottomOf="@+id/tip_estp"/>
-
-
+        app:layout_constraintTop_toBottomOf="@+id/tip_estp" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEnOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textSize="22sp"
-        android:textColor="@color/black"
-        android:text="@string/electrician"
         android:fontFamily="@font/bold"
+        android:text="@string/electrician"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/infj_jobs" />
-
 
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="60dp"
-        app:layout_constraintEnd_toEnOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textSize="22sp"
-        android:textColor="@color/black"
-        android:text="@string/cop"
         android:fontFamily="@font/bold"
+        android:text="@string/cop"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/infj_jobs" />
-
-
 
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="100dp"
-        app:layout_constraintEnd_toEnOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textSize="22sp"
-        android:textColor="@color/black"
-        android:text="@string/athlete"
         android:fontFamily="@font/bold"
+        android:text="@string/athlete"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/infj_jobs" />
-
 
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="140dp"
-        app:layout_constraintEnd_toEnOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textSize="22sp"
-        android:textColor="@color/black"
-        android:text="@string/politician"
         android:fontFamily="@font/bold"
+        android:text="@string/politician"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/infj_jobs" />
-
 
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="280dp"
         android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEnOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textSize="22sp"
-        android:textColor="@color/black"
-        android:text="@string/blogger"
         android:fontFamily="@font/bold"
+        android:text="@string/blogger"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/infj_jobs" />
-
 
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="280dp"
         android:layout_marginTop="60dp"
-        app:layout_constraintEnd_toEnOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textSize="22sp"
-        android:textColor="@color/black"
-        android:text="@string/investor"
         android:fontFamily="@font/bold"
+        android:text="@string/investor"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/infj_jobs" />
-
-
 
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="280dp"
         android:layout_marginTop="100dp"
-        app:layout_constraintEnd_toEnOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textSize="22sp"
-        android:textColor="@color/black"
-        android:text="@string/technician"
         android:fontFamily="@font/bold"
+        android:text="@string/technician"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/infj_jobs" />
 
-
     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/people_who_are_estp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/people_who_are_estp"
-        android:text="@string/people_who_are_estp"
-        android:textSize="26sp"
         android:layout_marginTop="190dp"
+        android:fontFamily="@font/bold_simple"
         android:gravity="center"
+        android:text="@string/people_who_are_estp"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:fontFamily="@font/bold_simple"
+        android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/infj_jobs" />
 
-
-
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
         android:layout_marginStart="300dp"
-        app:srcCompat="@mipmap/goblin_estp"
-        app:layout_constraintTop_toTopOf="@+id/people_who_are_estp"/>
-
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toTopOf="@+id/people_who_are_estp"
+        app:srcCompat="@mipmap/goblin_estp" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
         android:layout_marginStart="120dp"
-        app:srcCompat="@mipmap/raponzel_estp"
-        app:layout_constraintTop_toTopOf="@+id/people_who_are_estp"/>
-
-
-
+        android:layout_marginTop="35dp"
+        app:layout_constraintTop_toTopOf="@+id/people_who_are_estp"
+        app:srcCompat="@mipmap/raponzel_estp" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="300dp"
-        app:srcCompat="@mipmap/sobin_estp"
-        app:layout_constraintTop_toTopOf="@+id/people_who_are_estp"/>
-
+        app:layout_constraintTop_toTopOf="@+id/people_who_are_estp"
+        app:srcCompat="@mipmap/sobin_estp" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="42dp"
         android:layout_marginEnd="90dp"
-        app:srcCompat="@mipmap/redgirl_estp"
-        app:layout_constraintTop_toTopOf="@+id/people_who_are_estp"/>
-
-
-
-
-
+        app:layout_constraintTop_toTopOf="@+id/people_who_are_estp"
+        app:srcCompat="@mipmap/redgirl_estp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

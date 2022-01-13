@@ -5,53 +5,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_istj"
-    tools:context=".istj_Activity">
-
-
+    tools:context=".IstjActivity">
 
     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tip_istj"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/tip_istj"
-        android:text="@string/tip_istj"
-        android:textColor="@color/black"
-        android:textSize="22sp"
         android:fontFamily="@font/bold"
         android:gravity="center"
+        android:text="@string/tip_istj"
         android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/istj_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/istj_text"
-        android:text="@string/istj_text"
+        android:layout_marginTop="2dp"
         android:fontFamily="@font/simple"
         android:gravity="center"
-        android:layout_marginTop="2dp"
-        android:textSize="20sp"
+        android:text="@string/istj_text"
         android:textColor="@color/black"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tip_istj"/>
-
+        app:layout_constraintTop_toBottomOf="@+id/tip_istj" />
 
 
     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/istj_jobs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/istj_jobs"
-        android:textSize="22sp"
-        android:textColor="@color/black"
+        android:layout_marginTop="240dp"
         android:fontFamily="@font/bold"
-        app:layout_constraintEnd_toEndOf="parent"
         android:text="@string/jobs_istj"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="220dp"
-        app:layout_constraintTop_toBottomOf="@+id/tip_istj"/>
+        app:layout_constraintTop_toBottomOf="@+id/tip_istj" />
 
 
     <androidx.appcompat.widget.AppCompatTextView
@@ -59,12 +55,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="50dp"
-        app:layout_constraintEnd_toEnOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textSize="22sp"
-        android:textColor="@color/black"
-        android:text="@string/computer_engineer"
         android:fontFamily="@font/bold"
+        android:text="@string/computer_engineer"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/istj_jobs" />
 
 
@@ -74,12 +69,11 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="90dp"
         android:fontFamily="@font/bold"
-        app:layout_constraintEnd_toEnOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textSize="22sp"
-        android:textColor="@color/black"
         android:text="@string/university_professor"
-        app:layout_constraintTop_toBottomOf="@id/istj_jobs"/>
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/istj_jobs" />
 
 
     <androidx.appcompat.widget.AppCompatTextView
@@ -88,14 +82,11 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="160dp"
         android:fontFamily="@font/bold"
-        app:layout_constraintEnd_toEnOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textSize="22sp"
-        android:textColor="@color/black"
         android:text="@string/accountants"
-        app:layout_constraintTop_toTopOf="@id/istj_jobs"/>
-
-
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/istj_jobs" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="wrap_content"
@@ -103,13 +94,11 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="50dp"
         android:fontFamily="@font/bold"
-        app:layout_constraintEnd_toEnOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textSize="22sp"
-        android:textColor="@color/black"
         android:text="@string/bank_employee"
-        app:layout_constraintTop_toTopOf="@id/istj_jobs"/>
-
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/istj_jobs" />
 
 
     <androidx.appcompat.widget.AppCompatTextView
@@ -118,12 +107,11 @@
         android:layout_marginStart="290dp"
         android:layout_marginTop="50dp"
         android:fontFamily="@font/bold"
-        app:layout_constraintEnd_toEnOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textSize="22sp"
-        android:textColor="@color/black"
         android:text="@string/lawyer"
-        app:layout_constraintTop_toTopOf="@id/istj_jobs"/>
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/istj_jobs" />
 
 
     <androidx.appcompat.widget.AppCompatTextView
@@ -132,12 +120,11 @@
         android:layout_marginStart="290dp"
         android:layout_marginTop="80dp"
         android:fontFamily="@font/bold"
-        app:layout_constraintEnd_toEnOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textSize="22sp"
-        android:textColor="@color/black"
         android:text="@string/nurse"
-        app:layout_constraintTop_toTopOf="@id/istj_jobs"/>
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/istj_jobs" />
 
 
     <androidx.appcompat.widget.AppCompatTextView
@@ -146,36 +133,35 @@
         android:layout_marginStart="290dp"
         android:layout_marginTop="120dp"
         android:fontFamily="@font/bold"
-        app:layout_constraintEnd_toEnOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textSize="22sp"
-        android:textColor="@color/black"
         android:text="@string/doctor"
-        app:layout_constraintTop_toTopOf="@id/istj_jobs"/>
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/istj_jobs" />
 
 
     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/people_who_are_istj"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/people_who_are_istj"
-        android:text="@string/people_who_are_istj"
-        android:textSize="26sp"
         android:layout_marginTop="210dp"
+        android:fontFamily="@font/bold_simple"
         android:gravity="center"
+        android:text="@string/people_who_are_istj"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:fontFamily="@font/bold_simple"
+        android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/istj_jobs" />
 
 
     <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/watch_istj"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="85dp"
         android:layout_marginEnd="300dp"
-        android:id="@+id/watch_istj"
         app:layout_constraintTop_toTopOf="@+id/people_who_are_istj"
         app:srcCompat="@mipmap/watch_istj" />
 
@@ -183,31 +169,28 @@
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/anne_istj"
-        android:layout_marginEnd="120dp"
         android:layout_marginTop="50dp"
-        app:layout_constraintTop_toTopOf="@id/people_who_are_istj"/>
-
-
+        android:layout_marginEnd="120dp"
+        app:layout_constraintTop_toTopOf="@id/people_who_are_istj"
+        app:srcCompat="@mipmap/anne_istj" />
 
 
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/kyungsoo_istj"
         android:layout_marginStart="80dp"
         android:layout_marginTop="110dp"
-        app:layout_constraintTop_toTopOf="@id/people_who_are_istj"/>
-
+        app:layout_constraintTop_toTopOf="@id/people_who_are_istj"
+        app:srcCompat="@mipmap/kyungsoo_istj" />
 
 
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/anime_istj"
         android:layout_marginStart="280dp"
         android:layout_marginTop="89dp"
-        app:layout_constraintTop_toTopOf="@id/people_who_are_istj"/>
+        app:layout_constraintTop_toTopOf="@id/people_who_are_istj"
+        app:srcCompat="@mipmap/anime_istj" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

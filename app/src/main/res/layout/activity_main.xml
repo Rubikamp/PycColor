@@ -1,9 +1,351 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="#F8DCDC">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22sp"
+            android:fontFamily="@font/bold_beauty"
+            android:text="@string/choose_your_type"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textview_title">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_first"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/layout_margin"
+                android:layout_marginTop="@dimen/layout_margin"
+                android:layout_marginEnd="@dimen/layout_margin"
+                android:layout_marginBottom="@dimen/layout_margin"
+                android:orientation="horizontal"
+                android:padding="@dimen/layout_padding">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/enfj_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_enfj"
+                    android:fontFamily="@font/bold_beauty"
+                    android:padding="16dp"
+                    android:text="@string/enfj"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/enfp_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_enfp"
+                    android:fontFamily="@font/bold_beauty"
+                    android:padding="16dp"
+                    android:text="@string/enfp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_second"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/layout_first"
+                android:layout_margin="@dimen/layout_margin"
+                android:orientation="horizontal"
+                android:padding="@dimen/layout_padding">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/entj_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_entj"
+                    android:fontFamily="@font/bold_beauty"
+                    android:padding="16dp"
+                    android:text="@string/entj"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/entp_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_entp"
+                    android:fontFamily="@font/bold_beauty"
+                    android:padding="16dp"
+                    android:text="@string/entp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_third"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/layout_second"
+                android:layout_margin="@dimen/layout_margin"
+                android:orientation="horizontal"
+                android:padding="@dimen/layout_padding">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/esfj_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_esfj"
+                    android:fontFamily="@font/bold_beauty"
+                    android:padding="16dp"
+                    android:text="@string/esfj"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/esfp_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_esfp"
+                    android:fontFamily="@font/bold_beauty"
+                    android:padding="16dp"
+                    android:text="@string/esfp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_forth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/layout_third"
+                android:layout_marginStart="@dimen/layout_margin"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="@dimen/layout_margin"
+                android:layout_marginBottom="@dimen/layout_margin"
+                android:orientation="horizontal"
+                android:padding="@dimen/layout_padding">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/estj_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_estj"
+                    android:fontFamily="@font/bold_beauty"
+                    android:padding="16dp"
+                    android:text="@string/estj"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/estp_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_estp"
+                    android:fontFamily="@font/bold_beauty"
+                    android:padding="16dp"
+                    android:text="@string/estp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_fifth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/layout_forth"
+                android:layout_marginStart="@dimen/layout_margin"
+                android:layout_marginTop="@dimen/layout_margin"
+                android:layout_marginEnd="@dimen/layout_margin"
+                android:layout_marginBottom="@dimen/layout_margin"
+                android:orientation="horizontal"
+                android:padding="@dimen/layout_padding">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/infj_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_infj"
+                    android:fontFamily="@font/bold_beauty"
+                    android:padding="16dp"
+                    android:text="@string/infj"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/infp_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_infp"
+                    android:fontFamily="@font/bold_beauty"
+                    android:padding="16dp"
+                    android:text="@string/infp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_sixth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/layout_fifth"
+                android:layout_margin="@dimen/layout_margin"
+                android:orientation="horizontal"
+                android:padding="@dimen/layout_padding">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/intj_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_intj"
+                    android:fontFamily="@font/bold_beauty"
+                    android:padding="16dp"
+                    android:text="@string/intj"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/intp_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_intp"
+                    android:fontFamily="@font/bold_beauty"
+                    android:padding="16dp"
+                    android:text="@string/intp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_seventh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/layout_sixth"
+                android:layout_margin="@dimen/layout_margin"
+                android:orientation="horizontal"
+                android:padding="@dimen/layout_padding">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/isfj_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_isfj"
+                    android:fontFamily="@font/bold_beauty"
+                    android:padding="16dp"
+                    android:text="@string/isfj"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/isfp_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_isfp"
+                    android:fontFamily="@font/bold_beauty"
+                    android:padding="16dp"
+                    android:text="@string/isfp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/layout_eighth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/layout_seventh"
+                android:layout_margin="@dimen/layout_margin"
+                android:orientation="horizontal"
+                android:padding="@dimen/layout_padding">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/istj_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_istj"
+                    android:fontFamily="@font/bold_beauty"
+                    android:padding="16dp"
+                    android:text="@string/istj"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/istp_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12sp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_istp"
+                    android:fontFamily="@font/bold_beauty"
+                    android:padding="16dp"
+                    android:text="@string/istp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+

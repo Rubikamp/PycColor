@@ -2,9 +2,10 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
 
-    <solid android:color="@color/brown_ISTP"/>
-    <gradient android:angle="45"
-        android:startColor="@color/green_ISTP"
-        android:endColor="@color/blue_ISTP"/>
-
+    <solid android:color="@color/brown_ISTP" />
+    <gradient
+        android:angle="45"
+        android:endColor="@color/blue_ISTP"
+        android:startColor="@color/green_ISTP" />
+    <corners android:radius="33dp" />
 </shape>

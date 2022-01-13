@@ -58,6 +58,11 @@
     <color name="yellow_ESTP">#FCF874</color>
     <color name="orange_ESTP">#E66A0F</color>
     <color name="red_ESTP">#B82219</color>
+    <color name="purple_700">#673AB7</color>
+    <color name="purple_200">#8768BF</color>
+    <color name="purple_500">#9C27B0</color>
+    <color name="teal_200">#2196F3</color>
+    <color name="teal_700">#2F6895</color>
 
 
 
