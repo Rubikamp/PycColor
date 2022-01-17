@@ -7,5 +7,4 @@
         android:angle="45"
         android:endColor="@color/DARK_PURPLE_INFJ"
         android:startColor="@color/purple_INTJ" />
-    <corners android:radius="33dp" />
 </shape>

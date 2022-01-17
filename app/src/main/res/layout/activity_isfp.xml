@@ -1,206 +1,211 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/bg_isfp"
-    tools:context=".IsfpActivity">
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tip_isfp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/bold"
-        android:gravity="center"
-        android:text="@string/tip_for_isfp_type"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="22sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/istj_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:fontFamily="@font/simple"
-        android:gravity="center"
-        android:text="@string/isfp_text"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tip_isfp" />
-
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/isfp_jobs"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
-        android:fontFamily="@font/bold"
-        android:text="@string/isfp_jobs"
-        android:textColor="@color/black"
-        android:textSize="22sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tip_isfp" />
-
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="60dp"
-        android:fontFamily="@font/bold"
-        android:text="@string/digital_designer"
-        android:textColor="@color/black"
-        android:textSize="22sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/isfp_jobs" />
-
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="100dp"
-        android:fontFamily="@font/bold"
-        android:text="@string/web_designer"
-        android:textColor="@color/black"
-        android:textSize="22sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/isfp_jobs" />
-
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="140dp"
-        android:fontFamily="@font/bold"
-        android:text="@string/botanist"
-        android:textColor="@color/black"
-        android:textSize="22sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/isfp_jobs" />
-
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="180dp"
-        android:fontFamily="@font/bold"
-        android:text="@string/designer"
-        android:textColor="@color/black"
-        android:textSize="22sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/isfp_jobs" />
-
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="250dp"
-        android:layout_marginTop="190dp"
-        android:fontFamily="@font/bold"
-        android:text="@string/artist"
-        android:textColor="@color/black"
-        android:textSize="22sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/isfp_jobs" />
-
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="250dp"
-        android:layout_marginTop="70dp"
-        android:fontFamily="@font/bold"
-        android:text="@string/singer"
-        android:textColor="@color/black"
-        android:textSize="22sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/isfp_jobs" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="250dp"
-        android:layout_marginTop="150dp"
-        android:fontFamily="@font/bold"
-        android:text="@string/painter"
-        android:textColor="@color/black"
-        android:textSize="22sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/isfp_jobs" />
-
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="250dp"
-        android:layout_marginTop="110dp"
-        android:fontFamily="@font/bold"
-        android:text="@string/web_designer"
-        android:textColor="@color/black"
-        android:textSize="22sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/isfp_jobs" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/people_who_are_isfp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
-        android:fontFamily="@font/bold_simple"
-        android:gravity="center"
-        android:text="@string/people_who_are_isfp"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="26sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/isfp_jobs" />
-
-
-    <androidx.appcompat.widget.AppCompatImageView
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
-        android:layout_marginEnd="280dp"
-        app:layout_constraintTop_toTopOf="@+id/people_who_are_isfp"
-        app:srcCompat="@mipmap/zuko_isfp" />
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_isfp"
+        tools:context=".IsfpActivity">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_marginTop="12sp"
+            android:id="@+id/tip_isfp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:gravity="center"
+            android:text="@string/tip_for_isfp_type"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/istj_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/simple"
+            android:gravity="center"
+            android:text="@string/isfp_text"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tip_isfp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/isfp_jobs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/bold"
+            android:text="@string/isfp_jobs"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/istj_text"/>
 
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="295dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintTop_toTopOf="@+id/people_who_are_isfp"
-        app:srcCompat="@mipmap/byunbeakyun_isfp" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/bold"
+            android:text="@string/digital_designer"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/isfp_jobs" />
 
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="130dp"
-        android:layout_marginEnd="110dp"
-        app:layout_constraintTop_toTopOf="@+id/people_who_are_isfp"
-        app:srcCompat="@mipmap/babygroot_isfp" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/bold"
+            android:text="@string/web_designer"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/isfp_jobs" />
 
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="110dp"
-        android:layout_marginTop="110dp"
-        app:layout_constraintTop_toTopOf="@+id/people_who_are_isfp"
-        app:srcCompat="@mipmap/riko_isfp" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="140dp"
+            android:fontFamily="@font/bold"
+            android:text="@string/botanist"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/isfp_jobs" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="180dp"
+            android:fontFamily="@font/bold"
+            android:text="@string/designer"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/isfp_jobs" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="190dp"
+            android:fontFamily="@font/bold"
+            android:text="@string/artist"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/isfp_jobs" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/bold"
+            android:text="@string/singer"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/isfp_jobs" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="150dp"
+            android:fontFamily="@font/bold"
+            android:text="@string/painter"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/isfp_jobs" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="110dp"
+            android:fontFamily="@font/bold"
+            android:text="@string/web_designer"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/isfp_jobs" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/people_who_are_isfp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:fontFamily="@font/bold_simple"
+            android:gravity="center"
+            android:text="@string/people_who_are_isfp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/isfp_jobs" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="280dp"
+            app:layout_constraintTop_toTopOf="@+id/people_who_are_isfp"
+            app:srcCompat="@mipmap/zuko_isfp" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="295dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toTopOf="@+id/people_who_are_isfp"
+            app:srcCompat="@mipmap/byunbeakyun_isfp" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="110dp"
+            app:layout_constraintTop_toTopOf="@+id/people_who_are_isfp"
+            app:srcCompat="@mipmap/babygroot_isfp" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="110dp"
+            app:layout_constraintTop_toTopOf="@+id/people_who_are_isfp"
+            app:srcCompat="@mipmap/riko_isfp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

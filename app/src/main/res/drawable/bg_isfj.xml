@@ -6,6 +6,4 @@
         android:angle="45"
         android:endColor="@color/pink_ISFJ"
         android:startColor="@color/purple_ISFJ" />
-    <corners android:radius="33dp" />
-
 </shape>

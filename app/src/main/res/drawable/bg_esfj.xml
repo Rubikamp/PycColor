@@ -8,5 +8,4 @@
         android:centerColor="@color/light_pink_ESFJ"
         android:endColor="@color/pink_ESFJ"
         android:startColor="@color/purple_ESFJ" />
-    <corners android:radius="33dp" />
 </shape>

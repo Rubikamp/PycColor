@@ -8,6 +8,5 @@
         android:angle="45"
         android:endColor="@color/purple_INTJ"
         android:startColor="@color/gray_INTJ" />
-    <corners android:radius="33dp" />
 
 </shape>

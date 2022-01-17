@@ -7,6 +7,5 @@
         android:angle="45"
         android:endColor="@color/blue_INTP"
         android:startColor="@color/light_blue_INTP" />
-    <corners android:radius="33dp" />
 
 </shape>

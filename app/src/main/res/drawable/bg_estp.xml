@@ -7,5 +7,4 @@
         android:centerColor="@color/orange_ESTP"
         android:endColor="@color/red_ESTP"
         android:startColor="@color/yellow_ESTP" />
-    <corners android:radius="33dp" />
 </shape>

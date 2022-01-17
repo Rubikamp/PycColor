@@ -7,5 +7,4 @@
         android:angle="45"
         android:endColor="@color/green_ESFP"
         android:startColor="@color/orange_ESFP" />
-    <corners android:radius="33dp" />
 </shape>
