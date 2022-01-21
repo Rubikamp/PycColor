@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -12,10 +12,10 @@
         tools:context=".IsfjActivity">
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:layout_marginTop="12sp"
             android:id="@+id/tip_isfj"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="12sp"
             android:fontFamily="@font/bold"
             android:gravity="center"
             android:text="@string/tip_isfj"
@@ -54,9 +54,10 @@
             app:layout_constraintTop_toBottomOf="@+id/istj_text" />
 
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_job_isfj"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="100dp"
             android:layout_marginTop="40dp"
             android:fontFamily="@font/bold"
             android:text="@string/primary_school_teacher"
@@ -65,8 +66,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/isfj_jobs" />
 
-
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_trainer_isfj"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -80,6 +81,7 @@
 
 
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/psychology_isfj"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -106,56 +108,29 @@
 
 
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/chef"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="290dp"
-            android:layout_marginTop="70dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="80dp"
             android:fontFamily="@font/bold"
             android:text="@string/chef"
             android:textColor="@color/black"
             android:textSize="22sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@id/isfj_jobs" />
-
-
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="290dp"
-            android:layout_marginTop="70dp"
-            android:fontFamily="@font/bold"
-            android:text="@string/chef"
-            android:textColor="@color/black"
-            android:textSize="22sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@id/isfj_jobs" />
-
+            app:layout_constraintStart_toEndOf="@+id/text_trainer_isfj"
+            app:layout_constraintTop_toBottomOf="@id/isfj_jobs" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="290dp"
-            android:layout_marginTop="110dp"
-            android:fontFamily="@font/bold"
-            android:text="@string/lawyer"
-            android:textColor="@color/black"
-            android:textSize="22sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@id/isfj_jobs" />
-
-
-        <androidx.appcompat.widget.AppCompatTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="290dp"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="120dp"
             android:fontFamily="@font/bold"
             android:text="@string/artist"
             android:textColor="@color/black"
             android:textSize="22sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@id/isfj_jobs" />
-
+            app:layout_constraintTop_toBottomOf="@+id/isfj_jobs" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
@@ -196,9 +171,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="64dp"
-            android:layout_marginEnd="110dp"
             app:layout_constraintTop_toTopOf="@+id/people_who_are_isfj"
-            app:srcCompat="@mipmap/bo_isfj" />
+            app:srcCompat="@mipmap/bo_isfj"
+            tools:ignore="ImageContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="match_parent"

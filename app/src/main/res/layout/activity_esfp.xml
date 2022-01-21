@@ -105,7 +105,7 @@
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="280dp"
+            android:layout_marginStart="300dp"
             android:layout_marginTop="30dp"
             app:layout_constraintStart_toStartOf="parent"
             android:textSize="22sp"

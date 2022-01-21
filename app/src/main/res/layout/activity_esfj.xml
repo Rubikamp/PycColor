@@ -107,7 +107,7 @@
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="290dp"
+            android:layout_marginStart="350dp"
             android:layout_marginTop="20dp"
             app:layout_constraintStart_toStartOf="parent"
             android:textSize="22sp"
@@ -120,8 +120,8 @@
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="290dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="90dp"
             app:layout_constraintStart_toStartOf="parent"
             android:textSize="22sp"
             android:textColor="@color/black"
@@ -133,7 +133,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="290dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="140dp"
             app:layout_constraintStart_toStartOf="parent"
             android:textSize="22sp"
             android:textColor="@color/black"
