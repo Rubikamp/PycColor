@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ColorType" >
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,8 +20,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SplashScreenActivity"
-            android:exported="true" />
+            android:name=".MainActivity"
+            android:exported="true" >
+        </activity>
         <activity
             android:name=".EnfpActivity"
             android:exported="false" />

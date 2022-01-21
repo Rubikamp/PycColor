@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
+import android.window.SplashScreen;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private AppCompatButton enfjButton, enfpButton, entjButton, entpButton, esfjButton, esfpButton, estjButton, estpButton, infjButton, infpButton, intjButton, intpButton, isfjButton, isfpButton, istjButton, istpButton;
